@@ -1,5 +1,5 @@
-define(['./legacy'], function () {
-  'use strict';
+'use strict';
 
-  alert(window.globalVar);
-});
+require('./legacy');
+
+alert(window.globalVar);
